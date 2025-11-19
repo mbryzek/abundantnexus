@@ -1,0 +1,1831 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Ovent - Event Conference & Meetup Elementor Template Kit.",
+    "page_builder": "elementor",
+    "kit_version": "1.0.1",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Faq",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/faq\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Ovent Form Contact Home 01 Get Every Single Update Here.",
+            "screenshot": "screenshots\/ovent-form-contact-home-01-get-every-single-update-here..jpg",
+            "source": "templates\/ovent-form-contact-home-01-get-every-single-update-here..json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/ovent-form-contact-home-01-get-every-single-update-here\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Ovent Tab Schedule Box 01",
+            "screenshot": "screenshots\/ovent-tab-schedule-box-01.jpg",
+            "source": "templates\/ovent-tab-schedule-box-01.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/ovent-tab-schedule-box-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Ovent Tab Pricing Box 01",
+            "screenshot": "screenshots\/ovent-tab-pricing-box-01.jpg",
+            "source": "templates\/ovent-tab-pricing-box-01.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/ovent-tab-pricing-box-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/contact\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "News",
+            "screenshot": "screenshots\/news.jpg",
+            "source": "templates\/news.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/news\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Ovent Form Faq Please Tell Here",
+            "screenshot": "screenshots\/ovent-form-faq-please-tell-here.jpg",
+            "source": "templates\/ovent-form-faq-please-tell-here.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/ovent-form-faq-please-tell-here\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-faq",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Shedules",
+            "screenshot": "screenshots\/shedules.jpg",
+            "source": "templates\/shedules.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/shedules\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/pricing\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-pricing",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Gallery",
+            "screenshot": "screenshots\/gallery.jpg",
+            "source": "templates\/gallery.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/gallery\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-gallery",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Speakers",
+            "screenshot": "screenshots\/speakers.jpg",
+            "source": "templates\/speakers.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/speakers\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-other",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/about\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-about",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer Style 02",
+            "screenshot": "screenshots\/footer-style-02.jpg",
+            "source": "templates\/footer-style-02.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/footer-style-02\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer Style 01",
+            "screenshot": "screenshots\/footer-style-01.jpg",
+            "source": "templates\/footer-style-01.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/footer-style-01\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Ovent Form Contact Main",
+            "screenshot": "screenshots\/ovent-form-contact-main.jpg",
+            "source": "templates\/ovent-form-contact-main.json",
+            "preview_url": "http:\/\/demothemesflat.co\/oventkit\/template-kit\/ovent-form-contact-main\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.13.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.8.8",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.3.2",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Stratum - Elementor Widgets",
+            "version": "1.3.14",
+            "file": "stratum\/stratum.php",
+            "author": "MotoPress"
+        },
+        {
+            "name": "Themesflat Addons For Elementor",
+            "version": "1.9.6",
+            "file": "themesflat-addons-for-elementor\/themesflat-addons-for-elementor.php",
+            "author": "Themesflat"
+        }
+    ],
+    "images": [
+        {
+            "filename": "img_bg_pages-GNNym8-DDG4-unsplash.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_pages-GNNym8-DDG4-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/shedules.json",
+                    "name": "Shedules"
+                },
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                },
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 350688,
+            "dimensions": [
+                1920,
+                650
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_query_faq-8PX8RTJ.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_query_faq-8PX8RTJ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 35238,
+            "dimensions": [
+                370,
+                331
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8PX8RTJ"
+        },
+        {
+            "filename": "img_bg_Faq-KWXHLZS.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_Faq-KWXHLZS.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "Faq"
+                }
+            ],
+            "filesize": 255219,
+            "dimensions": [
+                1920,
+                926
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KWXHLZS"
+        },
+        {
+            "filename": "logo-dark.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/logo-dark.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 4687,
+            "dimensions": [
+                427,
+                150
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "bg-header.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/bg-header.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 846,
+            "dimensions": [
+                1230,
+                110
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/"
+        },
+        {
+            "filename": "img_schedule_homet-5EP5GAB.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_schedule_homet-5EP5GAB.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 4734,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5EP5GAB"
+        },
+        {
+            "filename": "events-thumb.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/events-thumb.png",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 52985,
+            "dimensions": [
+                220,
+                130
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "img_schedule_homet-HMJVWJJ.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_schedule_homet-HMJVWJJ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 4683,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HMJVWJJ"
+        },
+        {
+            "filename": "img_schude_pexels-696214.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_schude_pexels-696214.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 9774,
+            "dimensions": [
+                220,
+                130
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-696214"
+        },
+        {
+            "filename": "img_schedule_home-C7T63GR.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_schedule_home-C7T63GR.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 2983,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-C7T63GR"
+        },
+        {
+            "filename": "events-thumb-3.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/events-thumb-3.png",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 64155,
+            "dimensions": [
+                220,
+                130
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "img_schedule_home-BYRG62A.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_schedule_home-BYRG62A.jpg",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 3537,
+            "dimensions": [
+                70,
+                70
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-BYRG62A"
+        },
+        {
+            "filename": "events-thumb-4.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/events-thumb-4.png",
+            "templates": [
+                {
+                    "source": "templates\/ovent-tab-schedule-box-01.json",
+                    "name": "Ovent Tab Schedule Box 01"
+                }
+            ],
+            "filesize": 51213,
+            "dimensions": [
+                220,
+                130
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "img_bg_pages-GNNym8-DDG4-unsplash-1.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_pages-GNNym8-DDG4-unsplash-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/news.json",
+                    "name": "News"
+                }
+            ],
+            "filesize": 350688,
+            "dimensions": [
+                1920,
+                650
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GNNym8-DDG4-unsplash-1"
+        },
+        {
+            "filename": "intro-video-bg-2.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/intro-video-bg-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shedules.json",
+                    "name": "Shedules"
+                }
+            ],
+            "filesize": 440131,
+            "dimensions": [
+                1920,
+                844
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "img_single_home-KWXHLZS.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_single_home-KWXHLZS.jpg",
+            "templates": [
+                {
+                    "source": "templates\/shedules.json",
+                    "name": "Shedules"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 63948,
+            "dimensions": [
+                530,
+                486
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KWXHLZS"
+        },
+        {
+            "filename": "img_bg_pages-GNNym8-DDG4-unsplash-2.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_pages-GNNym8-DDG4-unsplash-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 350688,
+            "dimensions": [
+                1920,
+                650
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-GNNym8-DDG4-unsplash-2"
+        },
+        {
+            "filename": "img_bg_pricing-8vuUgGeirX4-unsplash.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_pricing-8vuUgGeirX4-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                }
+            ],
+            "filesize": 472041,
+            "dimensions": [
+                1920,
+                958
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8vuUgGeirX4-unsplash"
+        },
+        {
+            "filename": "placeholder-4.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/placeholder-4.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 6146,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "placeholder-5.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/placeholder-5.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 6146,
+            "dimensions": [
+                1200,
+                800
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "img_gallery_01.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 42886,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_02.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 41448,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_03.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 46247,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_04.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 55778,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_05.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 50546,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_06.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 54046,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_07.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_07.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 34672,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_08.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_08.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 45804,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_09.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_09.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 40184,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_10.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_10.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 36056,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_11.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_11.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 38273,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_gallery_12.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/05\/img_gallery_12.jpg",
+            "templates": [
+                {
+                    "source": "templates\/gallery.json",
+                    "name": "Gallery"
+                }
+            ],
+            "filesize": 33301,
+            "dimensions": [
+                370,
+                370
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_team_home-7REK9UD.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-7REK9UD.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 41039,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-7REK9UD"
+        },
+        {
+            "filename": "img_team_home-527TEPX.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-527TEPX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 35043,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-527TEPX"
+        },
+        {
+            "filename": "img_team_home-KDGDZV2.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-KDGDZV2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 54913,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-KDGDZV2"
+        },
+        {
+            "filename": "img_team_home-AW5Y4NG.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-AW5Y4NG.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 42895,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AW5Y4NG"
+        },
+        {
+            "filename": "img_team_home-JD5CJPP.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-JD5CJPP.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 52313,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-JD5CJPP"
+        },
+        {
+            "filename": "img_team_home-TL3PYJ3.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-TL3PYJ3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 48805,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-TL3PYJ3"
+        },
+        {
+            "filename": "img_team_home-P7697GN.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-P7697GN.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 81899,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P7697GN"
+        },
+        {
+            "filename": "img_team_home-PU63PBQ.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_team_home-PU63PBQ.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 49564,
+            "dimensions": [
+                500,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PU63PBQ"
+        },
+        {
+            "filename": "img_gallery_01_home-Q5M2PVH.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_gallery_01_home-Q5M2PVH.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 79996,
+            "dimensions": [
+                450,
+                900
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q5M2PVH"
+        },
+        {
+            "filename": "img_gallery_02_home-X4GBB5H.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_gallery_02_home-X4GBB5H.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 42325,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-X4GBB5H"
+        },
+        {
+            "filename": "quote-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/quote-1.png",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 5212,
+            "dimensions": [
+                300,
+                263
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_gallery_03_home-QPWUJCX.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_gallery_03_home-QPWUJCX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 54284,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-QPWUJCX"
+        },
+        {
+            "filename": "img_gallery_04_home-MENVB2R.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_gallery_04_home-MENVB2R.jpg",
+            "templates": [
+                {
+                    "source": "templates\/speakers.json",
+                    "name": "Speakers"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 80780,
+            "dimensions": [
+                960,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-MENVB2R"
+        },
+        {
+            "filename": "icon-4.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-4.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 3823,
+            "dimensions": [
+                80,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-5.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2371,
+            "dimensions": [
+                91,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-6.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-6.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 2851,
+            "dimensions": [
+                76,
+                80
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "img_founder_About-LC5LVT4.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_founder_About-LC5LVT4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 66003,
+            "dimensions": [
+                440,
+                725
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LC5LVT4"
+        },
+        {
+            "filename": "sign-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sign-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 4438,
+            "dimensions": [
+                140,
+                55
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 10645,
+            "dimensions": [
+                225,
+                66
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-2.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 12667,
+            "dimensions": [
+                225,
+                59
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-3.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-3.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 24568,
+            "dimensions": [
+                225,
+                98
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-4.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-4.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 16573,
+            "dimensions": [
+                225,
+                68
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-5.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 12939,
+            "dimensions": [
+                225,
+                69
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-6.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-6.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 19223,
+            "dimensions": [
+                225,
+                74
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-7.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-7.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 17323,
+            "dimensions": [
+                225,
+                73
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-8.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-8.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 14328,
+            "dimensions": [
+                225,
+                88
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "sponsors-9.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/sponsors-9.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 16410,
+            "dimensions": [
+                225,
+                71
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "img_bg_blog_About-801863.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_blog_About-801863.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 223029,
+            "dimensions": [
+                1920,
+                953
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "img_bg_home-GNNym8-DDG4-unsplash.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_bg_home-GNNym8-DDG4-unsplash.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 325075,
+            "dimensions": [
+                1920,
+                1050
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/unsplash.com\/"
+        },
+        {
+            "filename": "shape-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/shape-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 11956,
+            "dimensions": [
+                352,
+                299
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/"
+        },
+        {
+            "filename": "shape-7.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/shape-7.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 15548,
+            "dimensions": [
+                314,
+                314
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/"
+        },
+        {
+            "filename": "img_speak_home-NRJ8JYX.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_speak_home-NRJ8JYX.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 8147,
+            "dimensions": [
+                167,
+                167
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-NRJ8JYX"
+        },
+        {
+            "filename": "img_speak_home-UTL5NH4.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_speak_home-UTL5NH4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 43285,
+            "dimensions": [
+                532,
+                532
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-UTL5NH4"
+        },
+        {
+            "filename": "img_speak_home-PTKQA58.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_speak_home-PTKQA58.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 16544,
+            "dimensions": [
+                266,
+                266
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTKQA58"
+        },
+        {
+            "filename": "img_quick_home-4EHAS8K.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/img_quick_home-4EHAS8K.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 176146,
+            "dimensions": [
+                1920,
+                750
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-4EHAS8K"
+        },
+        {
+            "filename": "pattern-bg.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/pattern-bg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 98532,
+            "dimensions": [
+                1920,
+                1563
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-1.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 1991,
+            "dimensions": [
+                44,
+                44
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-2.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-2.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2033,
+            "dimensions": [
+                48,
+                44
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "icon-3.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/icon-3.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 2776,
+            "dimensions": [
+                44,
+                44
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.flaticon.com\/"
+        },
+        {
+            "filename": "counter-bg.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/counter-bg.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 155200,
+            "dimensions": [
+                1920,
+                569
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "shape-07.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/shape-07.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 17065,
+            "dimensions": [
+                278,
+                376
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.istockphoto.com\/"
+        },
+        {
+            "filename": "footer-3.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/footer-3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-style-02.json",
+                    "name": "Footer Style 02"
+                }
+            ],
+            "filesize": 155221,
+            "dimensions": [
+                1920,
+                630
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "logo-2.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/logo-2.png",
+            "templates": [
+                {
+                    "source": "templates\/footer-style-02.json",
+                    "name": "Footer Style 02"
+                }
+            ],
+            "filesize": 2561,
+            "dimensions": [
+                131,
+                46
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "footer-1.jpg",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/footer-1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/footer-style-01.json",
+                    "name": "Footer Style 01"
+                }
+            ],
+            "filesize": 186370,
+            "dimensions": [
+                1920,
+                857
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.pexels.com\/"
+        },
+        {
+            "filename": "logo-2-1.png",
+            "thumbnail_url": "http:\/\/demothemesflat.co\/oventkit\/static\/uploads\/2023\/03\/logo-2-1.png",
+            "templates": [
+                {
+                    "source": "templates\/footer-style-01.json",
+                    "name": "Footer Style 01"
+                }
+            ],
+            "filesize": 2561,
+            "dimensions": [
+                131,
+                46
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        }
+    ]
+}

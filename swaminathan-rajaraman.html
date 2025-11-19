@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swaminathan Rajaraman - Abundant Nexus</title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Abundant Nexus</h1>
+            <p class="tagline">Abundant Nexus Conference in Honor of Dr. Janusz Bryzek</p>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="site-title">Abundant Nexus Conference in Honor of Dr. Janusz Bryzek</div>
+            <button class="hamburger" onclick="toggleMenu()" aria-label="Menu"><span class="hamburger-icon">☰</span> <span class="hamburger-label">Menu</span></button>
+            <ul>
+                <li><a href="index.html" class="">Home</a></li>
+<li><a href="about.html" class="">About</a></li>
+<li><a href="akkaraju-sandeep-abstract.html" class="">Akkaraju Sandeep Abstract</a></li>
+<li><a href="benedetto-abstract.html" class="">Benedetto Abstract</a></li>
+<li><a href="david-horsley-abstract.html" class="">David Horsley Abstract</a></li>
+<li><a href="grace-roger-abstract.html" class="">Grace Roger Abstract</a></li>
+<li><a href="kalvesten-edvard-rimskog-magnus-abstract.html" class="">Kalvesten, Edvard & Rimskog, Magnus Abstract</a></li>
+<li><a href="kaminaga-susumu-abstract.html" class="">Kaminaga Susumu Abstract</a></li>
+<li><a href="kurt-petersen-abstract.html" class="">Kurt Petersen Abstract</a></li>
+<li><a href="laermer-franz-majoni-stefan-abstract.html" class="">Laermer Franz & Majoni Stefan Abstract</a></li>
+<li><a href="origin-story.html" class="">Origin Story</a></li>
+<li><a href="peter-diamandis-abstract-age-of-abundance.html" class="">Peter Diamandis Abstract Age of Abundance</a></li>
+<li><a href="press-releases.html" class="">Press Releases</a></li>
+<li><a href="ray-curtis-abstract.html" class="">Ray Curtis Abstract</a></li>
+<li><a href="shad-roundy-abstract.html" class="">Shad Roundy Abstract</a></li>
+<li><a href="swaminathan-rajaraman.html" class="active">Swaminathan Rajaraman</a></li>
+<li><a href="weijie-yun-abstract.html" class="">Weijie Yun Abstract</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <main>
+            <h1>Swaminathan Rajaraman</h1>
+<h4>The Future of MEMS</h4>		
+			<h4>New Directions in Support of Abundance</h4>		
+			<h5>Moderated by Swaminathan Rajaraman, Associate Professor in NanoScience Technology Center, University of Central Florida</h5>		
+													<img style="width:35%; height:auto; float:left; margin:0 1.5rem 1rem 0;" width="300" height="300" src="static/uploads/2024/03/swaminathanRjaraaman-300x300.webp" alt="" srcset="static/uploads/2024/03/swaminathanRjaraaman-300x300.webp 300w, static/uploads/2024/03/swaminathanRjaraaman-150x150.webp 150w, static/uploads/2024/03/swaminathanRjaraaman-768x768.webp 768w, static/uploads/2024/03/swaminathanRjaraaman.webp 800w" sizes="(max-width: 300px) 100vw, 300px" />													
+		<p>The advent of the MEMS some 40 years ago had a profound effect on the semiconductor and tech industries. With the boundless optimism and energy of early MEMS pioneers like Janusz Bryzek, the industry grew rapidly and had a substantial impact on many industries including healthcare, automotive, and consumer electronics. Many MEMS products are now mature, perhaps even considered commodity products. Some may view the MEMS industry as being in decline. Or is it growing in new and different ways? What promise does the industry hold for an ambitious graduate </p><p>student or young professional interested in the field and motivated to make a difference in the world? Join us for a panel discussion in which we will explore the future of the MEMS industry at the Nexus of MEMS, abundance, and entrepreneurism.</p>		
+			<h4>The Future of MEMS</h4>		
+			<h4>New Directions in Support of Abundance</h4>		
+			<h5>Moderated by Swaminathan Rajaraman, Associate Professor in NanoScience Technology Center</h5>		
+		<p>The advent of the MEMS some 40 years ago had a profound effect on the semiconductor and tech industries. With the boundless optimism and energy of early MEMS pioneers like Janusz Bryzek, the industry grew rapidly and had a substantial impact on many industries including healthcare, automotive, and consumer electronics. Many MEMS products are now mature, perhaps even considered commodity products. Some may view the MEMS industry as being in decline. Or is it growing in new and different ways? What promise does the industry hold for an ambitious graduate student or young professional interested in the field and motivated to make a difference in the world? Join us for a panel discussion in which we will explore the future of the MEMS industry at the Nexus of MEMS, abundance, and entrepreneurism.</p>
+        </main>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abundant Nexus. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.querySelector('nav ul');
+            menu.classList.toggle('show');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const nav = document.querySelector('nav');
+            const hamburger = document.querySelector('.hamburger');
+            const menu = document.querySelector('nav ul');
+
+            if (!nav.contains(event.target) && menu.classList.contains('show')) {
+                menu.classList.remove('show');
+            }
+        });
+
+        // Close menu when clicking a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelector('nav ul').classList.remove('show');
+            });
+        });
+    </script>
+</body>
+</html>
