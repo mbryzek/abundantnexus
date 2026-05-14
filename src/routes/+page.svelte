@@ -189,6 +189,15 @@
 		</div>
 	</div>
 
+	<h2>Watch & Listen</h2>
+	<p>
+		Recordings of every presentation are available on the
+		<a href="/presentations"><strong>Presentations</strong></a> page (video, audio, and a
+		<a href="/uploads/2025/05/Abundant_Nexus_Final_Videos_r5.pdf" target="_blank" rel="noopener">
+			downloadable PDF index
+		</a>).
+	</p>
+
 	<h2>Program & Agenda</h2>
 	<h2><a href="/uploads/2024/04/Abundant_Nexus_Program_Rev04232024r1.pdf">Printable Agenda</a></h2>
 	<h4>April 24, 2024 | Computer History Museum, Mountain View, CA</h4>
