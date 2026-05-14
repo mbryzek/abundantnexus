@@ -14,6 +14,7 @@
 		{ href: '/', label: 'Home' },
 		{ href: '/about', label: 'About' },
 		{ href: '/origin-story', label: 'Origin Story' },
+		{ href: '/presentations', label: 'Presentations' },
 		{ href: '/press-releases', label: 'Press Releases' },
 	];
 
