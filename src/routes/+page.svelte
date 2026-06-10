@@ -184,7 +184,7 @@
 
 		<div class="speakers-grid">
 			{#each organizer as speaker}
-				<SpeakerCard photo={speaker.photo} name={speaker.name} title={speaker.title} abstractLink={speaker.abstractLink} />
+				<SpeakerCard photo={speaker.photo} name={speaker.name} title={speaker.title} />
 			{/each}
 		</div>
 	</div>
@@ -319,7 +319,7 @@
 		width="100%"
 		height="auto"
 		style="border:0;"
-		allowfullscreen=""
+		allowfullscreen
 		loading="lazy"
 		referrerpolicy="no-referrer-when-downgrade"
 		title="Computer History Museum Map"
