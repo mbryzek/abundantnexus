@@ -1,0 +1,11 @@
+node_modules/
+.svelte-kit/
+build/
+dist/
+src/generated/
+package-lock.json
+playwright-report/
+test-results/
+.vercel/
+.wrangler/
+static/uploads/
