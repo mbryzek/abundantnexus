@@ -6,9 +6,9 @@ export default {
       colors: {
         'abundant-primary': '#2c3e50',
         'abundant-secondary': '#34495e',
-        'abundant-accent': '#3498db',
-      },
-    },
+        'abundant-accent': '#3498db'
+      }
+    }
   },
-  plugins: [require('@tailwindcss/forms')],
-}
+  plugins: [require('@tailwindcss/forms')]
+};
