@@ -5,7 +5,7 @@
 
 <Shell>
   <h1>{data.speaker.presentationTitle}</h1>
-  <p class="text-xl text-gray-700 mb-6">
+  <p class="mb-6 text-xl text-gray-700">
     <strong>{data.speaker.name}</strong><br />
     <span class="text-lg">{data.speaker.title}</span>
   </p>
