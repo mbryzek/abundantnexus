@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
+  "imports": {
+    "#lib/*": "./src/lib/*"
+  },
   "engines": {
     "node": "^24.16.0 || >=26.0.0"
   },
@@ -38,7 +41,7 @@
     "prettier-plugin-tailwindcss": "^0.8.0",
     "semver": "^7.8.5",
     "svelte": "^5.57.1",
-    "svelte-check": "^4.3.4",
+    "svelte-check": "^4.7.6",
     "svelte-eslint-parser": "^1.7.1",
     "svelte-vitals": "0.55.1",
     "tailwindcss": "^4.3.1",

@@ -1,6 +1,6 @@
 <script lang="ts">
-  import Shell from '$lib/components/Shell.svelte';
-  import { presentations, presentationsPdfPath } from '$lib/data/presentations';
+  import Shell from '#lib/components/Shell.svelte';
+  import { presentations, presentationsPdfPath } from '#lib/data/presentations.js';
 </script>
 
 <Shell>

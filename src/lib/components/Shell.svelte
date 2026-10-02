@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { Snippet } from 'svelte';
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
 
   interface Props {
     children: Snippet;
@@ -20,9 +20,9 @@
 
   function isActive(href: string): boolean {
     if (href === '/') {
-      return $page.url.pathname === '/';
+      return page.url.pathname === '/';
     }
-    return $page.url.pathname.startsWith(href);
+    return page.url.pathname.startsWith(href);
   }
 
   function toggleMenu() {
