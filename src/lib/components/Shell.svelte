@@ -50,11 +50,11 @@
 <svelte:window onkeydown={handleKeydown} onclick={handleClickOutside} />
 
 {#if menuOpen}
-  <button class="fixed inset-0 z-30" onclick={closeMenu} aria-label="Close menu" style="background: transparent;"></button>
+  <button class="fixed inset-0 z-30 border-0" onclick={closeMenu} aria-label="Close menu" style="background: transparent;"></button>
 {/if}
 
 <nav>
-  <div class="container">
+  <div class="site-container">
     <a href="/" class="site-title">Abundant Nexus Conference in Honor of Dr. Janusz Bryzek</a>
     <button class="hamburger" onclick={toggleMenu} aria-label="Menu">
       <span class="hamburger-icon">☰</span>
@@ -72,14 +72,14 @@
   </div>
 </nav>
 
-<div class="container">
+<div class="site-container">
   <main>
     {@render children()}
   </main>
 </div>
 
 <footer>
-  <div class="container">
+  <div class="site-container">
     <p>&copy; 2025 Abundant Nexus. All rights reserved.</p>
   </div>
 </footer>

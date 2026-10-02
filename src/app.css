@@ -1,6 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* Tailwind 4 without Preflight: the components layer below carries this site's
+   own reset, and Preflight would strip list bullets, heading sizes and margins. */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
 
 @layer components {
   /* Abundant Nexus Static Site */
@@ -27,7 +29,7 @@
     padding-top: 90px; /* Space for fixed nav bar */
   }
 
-  .container {
+  .site-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
@@ -56,7 +58,7 @@
     padding: 1rem 0;
   }
 
-  nav .container {
+  nav .site-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -435,7 +437,7 @@
       padding: 0.75rem 0;
     }
 
-    nav .container {
+    nav .site-container {
       padding-left: 15px;
       padding-right: 15px;
     }

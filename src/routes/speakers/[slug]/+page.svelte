@@ -5,9 +5,9 @@
 
 <Shell>
   <h1>{data.speaker.presentationTitle}</h1>
-  <p class="mb-6 text-xl text-gray-700">
+  <p>
     <strong>{data.speaker.name}</strong><br />
-    <span class="text-lg">{data.speaker.title}</span>
+    <span>{data.speaker.title}</span>
   </p>
 
   <div style="overflow: auto;">
