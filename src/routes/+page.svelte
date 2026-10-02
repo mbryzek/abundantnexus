@@ -1,7 +1,7 @@
 <script lang="ts">
-  import Shell from '$lib/components/Shell.svelte';
-  import SpeakerCard from '$lib/components/SpeakerCard.svelte';
-  import SponsorSection from '$lib/components/SponsorSection.svelte';
+  import Shell from '#lib/components/Shell.svelte';
+  import SpeakerCard from '#lib/components/SpeakerCard.svelte';
+  import SponsorSection from '#lib/components/SponsorSection.svelte';
 
   // Map speaker names to their abstract slugs
   const speakerSlugMap: Record<string, string> = {
