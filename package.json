@@ -4,7 +4,7 @@
   "version": "0.0.1",
   "type": "module",
   "imports": {
-    "#lib/*": "./src/lib/*"
+    "#lib//index.ts*": "./src/lib/*"
   },
   "engines": {
     "node": "^24.16.0 || >=26.0.0"
@@ -43,7 +43,7 @@
     "svelte": "^5.57.1",
     "svelte-check": "^4.7.6",
     "svelte-eslint-parser": "^1.7.1",
-    "svelte-vitals": "0.55.1",
+    "svelte-vitals": "0.55.2",
     "tailwindcss": "^4.3.1",
     "typescript": "~6.0.3",
     "vite": "^8.0.16",
