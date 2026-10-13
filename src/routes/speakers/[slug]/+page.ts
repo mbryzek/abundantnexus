@@ -1,4 +1,4 @@
-import { speakers } from '#lib/data/speakers.js';
+import { speakers } from '#lib/data/speakers.ts';
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
