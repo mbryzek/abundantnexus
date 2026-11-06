@@ -2,15 +2,16 @@
 #
 # What CI runs for abundantnexus.
 #
-# LANDING THIS FILE IS THE ENROLMENT (ISS-848). The fleet verifies a repo exactly
-# when `ci/build.sh` exists at a pull request's head sha — there is no registry to
-# keep in step with the repos that have one. A verify job checks the commit out
-# detached, runs this, and posts the result as the `ci` commit status the merge
-# lane reads.
+# LANDING THIS FILE IS THE ENROLMENT (ISS-848). The fleet builds a repo exactly
+# when a build script is on `main`, and `ci/build.slow.sh` names a build the fleet
+# runs — there is no registry to keep in step with the repos that have one. The
+# repo's merge build carries every ready pull request: Prepare merges them onto
+# latest `main`, each shard runs this script, and Land lands every member once
+# each shard is green at one commit (devops docs/ci-enrolment.md).
 #
-# That cuts both ways: **a broken script here parks every pull request in this
-# repo**, because the lane refuses anything whose `ci` is not green. Confirm a
-# change to it by hand before merging one:
+# That cuts both ways: **a broken script here holds every pull request in this
+# repo**, because a red shard files a fix issue in the build and Land waits on it.
+# Confirm a change to it by hand before readying one:
 #
 #   dev ci verify --repo mbryzek/abundantnexus --sha <head sha> --pr <n> --no-post
 #
@@ -149,8 +150,8 @@ npm run check
 # `svelte/prefer-const` and `max-lines-per-function` are in no gating set of `eslint.p10.js`, so
 # `npm run lint` gates only on correctness, the type-aware rules among them.
 # `scripts/check-lint-style` (a copy of devops templates/ci/check-lint-style) forces the style
-# rules on over `eslint.config.js`, prints each finding and exits 0, and the hygiene sweep files
-# what reaches `main`.
+# rules on over `eslint.config.js`, prints each finding and exits 0, and the build's checks step
+# files each new finding the baseline does not hold (devops docs/ci-build-checks-step.md).
 # ci-advisory: scripts/check-lint-style
 scripts/check-lint-style || echo "check-lint-style: could not measure this tree — advisory, nothing fails on it"
 
@@ -159,8 +160,8 @@ scripts/check-lint-style || echo "check-lint-style: could not measure this tree 
 # svelte-vitals gate on new findings (ISS-15600), and `npm run build`, the verdict
 # svelte-check cannot give (ISS-868).
 #
-# The hygiene sweep reads the declaration below out of this file and runs the
-# repo's `scripts/check-format` (a copy of devops templates/ci/check-format) over
-# `main` every 14 days.
+# The build's checks step reads the declaration below out of this file, runs the
+# repo's `scripts/check-format` (a copy of devops templates/ci/check-format), and
+# files each new finding the baseline does not hold.
 # ci-advisory: scripts/check-format
 dev ci step sveltekit
